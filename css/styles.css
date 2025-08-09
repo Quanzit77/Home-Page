@@ -584,8 +584,14 @@ a{
     color: #fff;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 40px;
+    justify-content: space-between;
+    padding: 30px 40px;
+    flex-wrap: wrap;
+}
+.footer-wrap a{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 15px;
 }
 .fade-in-left {
     opacity: 0;
@@ -792,6 +798,9 @@ a{
         display: block;
         width: 100%;
     }
+   .footer-wrap{
+        justify-content: center;
+    }
 }
 
 
@@ -935,4 +944,5 @@ img {
   height: auto;
 }
 */
+
 
