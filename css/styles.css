@@ -593,6 +593,12 @@ a{
     font-size: 15px;
     margin-top: 15px;
 }
+.footer-location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
 .fade-in-left {
     opacity: 0;
     transform: translateX(-100px);
@@ -944,5 +950,6 @@ img {
   height: auto;
 }
 */
+
 
 
